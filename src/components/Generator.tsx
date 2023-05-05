@@ -245,12 +245,12 @@ export default () => {
               inputRef.style.height = `${inputRef.scrollHeight}px`
             }}
             rows="1"
-            class="gen-textarea"
+            class="gen-textarea rounded-2xl"
           />
-          <button onClick={handleButtonClick} disabled={systemRoleEditing()} gen-slate-btn>
+          <button onClick={handleButtonClick} disabled={systemRoleEditing()} gen-slate-btn class="rounded-2xl">
             Send
           </button>
-          <button title="Clear" onClick={clear} disabled={systemRoleEditing()} gen-slate-btn>
+          <button title="Clear" onClick={clear} disabled={systemRoleEditing()} gen-slate-btn class="rounded-2xl">
             <IconClear />
           </button>
         </div>
